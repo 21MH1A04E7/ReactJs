@@ -1,10 +1,15 @@
-
+import UserContextProvider from './context/UserContextProvider'
+import Login from './components/Login'
+import Profile from './components/Profile'
 function App() {
 
   return (
-    <>
-      <h1 className="text-red-200">hariom</h1>
-    </>
+    <div className='flex  flex-col items-center'>
+    <UserContextProvider>
+      <Login/>
+      <Profile/>
+    </UserContextProvider>    
+    </div>
   )
 }
 

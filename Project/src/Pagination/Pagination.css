@@ -1,0 +1,29 @@
+.paginationButton{
+    display: flex;
+    justify-content: space-evenly;
+    max-width:min-content;
+    gap:2px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap:3px;
+}
+.paginationButton button ,.btn1{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    font-size:30px;
+}
+.paginationButton button:hover{
+    background-color: #09151c;
+}
+#isActive{
+    background-color: #09151c;
+    color: white;
+}
